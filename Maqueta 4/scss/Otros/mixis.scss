@@ -1,3 +1,4 @@
+/*Los mixins permiten definir estilos reutilizables en toda la hoja de estilos sin tener que recurrir a clases CSS no semánticas del tipo. float-left. Los mixins también pueden contener reglas CSS y cualquier otro elemento definido por Sass.*/
 @mixin contenido-largo($valor) {
     height: $largo*$valor;
 }

@@ -9,13 +9,13 @@
 @import "../libs/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
-
+/*a cada objeto se lo define un background color el cual le da color de fondo y ademàs un border para que quede con un border */
 @import "otros/variables";
 
 @import "otros/mixis.scss";
+/*se hace importaciòn de carpetas variables y mixis para asì llevar a cabo la conexiòn para el diseño*/
 
-
-
+/*el @include se usa para llamar los mixins que se definieron*/
 
 @include media-breakpoint-up(xs) { 
     .cua1, .cua3 {
@@ -25,6 +25,7 @@
         border: 2px solid black;
         
     }
+
     .cua2 {
         @include contenido-largo(5);
         background-color: $color-primario;
@@ -56,9 +57,11 @@
     display: inline-block;
     margin-bottom: 20px;
 }
-
-
-
+    /*text aling sirve para posicionar el texto*/
+    /*height establece la altura del objeto*/
+    /*display:inline-block crea cajas que son de bloque y en línea de forma simultánea*/
+    /*margin botton establece margen en la parte inferior*/
+    /*para llamar un class se usa el . */
 
 @include media-breakpoint-up(sm) { 
     .cua1, .cua2 {
