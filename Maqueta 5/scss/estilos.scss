@@ -9,11 +9,11 @@
 @import "../libs/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
-
+/*a cada objeto se lo define un background color el cual le da color de fondo y ademàs un border para que quede con un border */
 @import "otros/variables";
 
 @import "otros/mixis.scss";
-
+/*se hace importaciòn de carpetas variables y mixis para asì llevar a cabo la conexiòn para el diseño*/
 div[class^='col-'] {
     border: 5px solid white;
 }

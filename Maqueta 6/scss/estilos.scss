@@ -9,11 +9,11 @@
 @import "../libs/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
-
+/*se hace importaciòn de carpetas variables y mixis para asì llevar a cabo la conexiòn para el diseño*/
 @import "otros/variables";
 
 @import "otros/mixis.scss";
-
+/*a cada objeto se lo define un background color el cual le da color de fondo y ademàs un border para que quede con un border */
 #cua2 {
     margin-bottom: 20px;
     text-align: center;
@@ -49,3 +49,8 @@ nav li {
 .text{
     float: right;
 }
+ /*text aling sirve para posicionar el texto*/
+    /*height establece la altura del objeto*/
+    /*display:inline-block crea cajas que son de bloque y en línea de forma simultánea*/
+    /*margin botton establece margen en la parte inferior*/
+    /*para llamar un class se usa el . */

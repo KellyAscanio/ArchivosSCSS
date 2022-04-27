@@ -9,7 +9,7 @@
 @import "../libs/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
-
+/*a cada objeto se lo define un background color el cual le da color de fondo y ademàs un border para que quede con un border */
 #Obje2 {
     background-color: rgb(39, 255, 68);
     text-align: center;
@@ -60,3 +60,8 @@
     text-align: center;
     background-color:rgba(211, 147, 27, 0.61)
 }
+ /*text aling sirve para posicionar el texto*/
+    /*height establece la altura del objeto*/
+    /*display:inline-block crea cajas que son de bloque y en línea de forma simultánea*/
+    /*margin botton establece margen en la parte inferior*/
+    /*para llamar un class se usa el . */
